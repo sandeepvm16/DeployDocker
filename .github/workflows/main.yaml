@@ -32,6 +32,4 @@ jobs:
            push: true
            tags: ${{ secrets.DOCKERHUB_USERNAME }}/flaskapp:v1.1
           
-   
-          
-### ⬆ IMPORTANT PART ⬆ ###
+
