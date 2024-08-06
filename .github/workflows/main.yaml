@@ -1,5 +1,5 @@
 # Your workflow name.
-name: Deploy to heroku.
+name: push it to dockerhub
 
 # Run workflow on every push to main branch.
 on:
@@ -31,5 +31,3 @@ jobs:
            file: ./Dockerfile
            push: true
            tags: ${{ secrets.DOCKERHUB_USERNAME }}/flaskapp:v1.1
-          
-
